@@ -1,0 +1,11 @@
+{
+	"name" : "nform-prototype-boilerplate",
+	"version" : "1.0.0",
+	"main" : [ "public/css/main.css", "public/js/main.js" ],
+	"private" : "true",
+	"dependencies" : {
+		"jquery" : "latest",
+		"knockout": "SteveSanderson/knockout.nuget",
+		"bootstrap" : "latest"
+	}
+}
