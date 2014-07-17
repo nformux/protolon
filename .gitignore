@@ -1,2 +1,5 @@
 public/vendor/
 .DS_Store
+/www/
+
+/public/_vendor/
