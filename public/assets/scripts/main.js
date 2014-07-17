@@ -1,6 +1,5 @@
 var vm = {};
 
 $(function(){
-	ko.applyBindings(vm);	
+  ko.applyBindings(vm); 
 });
-
