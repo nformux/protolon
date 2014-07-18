@@ -1,6 +1,6 @@
-var vm = {};
+var data = {};
 
 $(function(){
-  vm = ko.mapping.fromJS(harpData);
-  ko.applyBindings(vm); 
+  data = ko.mapping.fromJS(harpData);
+  ko.applyBindings(data); 
 });

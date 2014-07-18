@@ -1,6 +1,9 @@
 {
 	"globals" : {
 		"name" : "A New nForm Prototype",
-		"server" : "http://clients.nform.ca"
+		"server" : "http://clients.nform.ca",
+
+		"data": {
+		}
 	}
 }
