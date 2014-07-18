@@ -6,6 +6,7 @@
 	"dependencies" : {
 		"jquery" : "latest",
 		"knockout": "SteveSanderson/knockout.nuget",
-		"bootstrap" : "latest"
+		"bootstrap" : "latest",
+		"knockout.mapping": "latest"
 	}
 }
