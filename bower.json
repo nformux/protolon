@@ -5,6 +5,7 @@
 	"private" : "true",
 	"dependencies" : {
 		"jquery" : "latest",
+		"jquery-ui": "latest"
 		"knockout": "SteveSanderson/knockout.nuget",
 		"bootstrap" : "latest",
 		"knockout.mapping": "latest"
