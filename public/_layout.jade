@@ -1,15 +1,13 @@
+- if ( environment == "development" ) server = ''
 doctype
 html
   head
     title= title
-    - if ( environment == "development" ) server = ''
-    link(rel="stylesheet" href=server+"/assets/stylesheets/main.css")
-    script(src=server+"/assets/scripts/jquery.min.js")
-    script(src=server+"/assets/scripts/knockout-3.1.0.js")
-    script(src=server+"/assets/scripts/knockout.mapping.js")
-    script(src=server+"/assets/scripts/bootstrap.min.js")
-    script(src=server+"/assets/scripts/main.js")
+    link(rel="stylesheet" href=server+"/css/main.css")
+    script(src=server+"/vendor/jquery/dist/jquery.min.js")
+    script(src=server+"/vendor/knockout/Content/Scripts/knockout-3.2.0.js")
+    script(src=server+"/vendor/knockout.mapping/knockout.mapping.js")
+    script(src=server+"/vendor/bootstrap/dist/js/bootstrap.min.js")
+    script(src=server+"/js/main.js")
   body
     != yield
-    script.
-        var harpData = !{ JSON.stringify( data ) };
