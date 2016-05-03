@@ -1,6 +1,17 @@
 {
-	"globals" : {
-		"name" : "A New nForm Prototype",
-		"server" : "http://clients.nform.ca"
-	}
+  "globals": {
+
+    "title": "Prototype Foundation",
+
+    "mainNav": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "About",
+        "href": "about.html"
+      }
+    ]
+  }
 }

@@ -1,9 +1,0 @@
-- if ( !items ) { var items = [{"label": "lorem", "link": "#"}, {"label": "lorem", "link": "#"}, {"label": "lorem", "link": "#"}] }
-
-ol.breadcrumb
-	each item, index in items
-		li(class=( items.length == ( index + 1 ) ? 'active' : '' ))
-			if ( items.length == ( index + 1 ) )
-				span= item.label
-			else
-				a(href=item.link)= item.label

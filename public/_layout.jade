@@ -1,13 +1,21 @@
-- if ( environment == "development" ) server = ''
-doctype
-html
+doctype html
+html(lang='en')
   head
-    title= title
-    link(rel="stylesheet" href=server+"/css/main.css")
-    script(src=server+"/vendor/jquery/dist/jquery.min.js")
-    script(src=server+"/vendor/knockout/Content/Scripts/knockout-3.2.0.js")
-    script(src=server+"/vendor/knockout.mapping/knockout.mapping.js")
-    script(src=server+"/vendor/bootstrap/dist/js/bootstrap.min.js")
-    script(src=server+"/js/main.js")
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title
+    link(href='assets/css/main.css', rel='stylesheet')
+    //if lt IE 9
+      script(src='libraries/html5shiv-3.7.2.min.js')
+      script(src='libraries/respond-1.4.2.min.js')
   body
-    != yield
+    
+    != partial('_header')
+    .container
+      != yield
+    != partial('_footer')
+    
+    script(src='libraries/jquery-1.12.3.min.js')
+    script(src='libraries/bootstrap-3.3.6/js/bootstrap.min.js')
+    script(src='assets/js/main.js')
