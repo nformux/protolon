@@ -1,6 +1,5 @@
-prototype-boilerplate
-=====================
+#prototype-core
 
-A Harp boilerplate for creating prototypes.
+A Harp project boilerplate for rapidly creating new iomer/nForm prototypes.
 
  
