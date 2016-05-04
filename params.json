@@ -1,5 +1,5 @@
 {
-  "name": "Prototype-core",
+  "name": "Protolon",
   "tagline": "A Harp boilerplate for creating prototypes",
   "body": "### How to setup a new prototype\r\n\r\n1. Install [Node](https://nodejs.org/en/)\r\n2. Open PowerShell (Windows) or Terminal (Mac)\r\n3. Install Harp\r\n`npm install -g harp`\r\n4. Initialize a new Harp project using the prototype core files\r\n`harp init my-project-name -b nformux/prototype-core`\r\n5. Navigate to your new project folder\r\n`cd my-project-name`\r\n6. Run Harp\r\n`harp server`\r\n7. Navigate to [http://localhost:9000](http://localhost:9000) in your browser\r\n\r\n### Download pre-built partials\r\n\r\nDownload the partials as a [zip file](https://github.com/nformux/prototype/zipball/master) or view the [GitHub Repository](https://github.com/nformux/prototype)\r\n\r\n### Documentation\r\n\r\n- [Harp - Static Web Server](http://harpjs.com/docs/)\r\n- [Jade - Templating Engine](http://jade-lang.com/reference/)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
