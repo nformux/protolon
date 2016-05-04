@@ -7,10 +7,6 @@
       {
         "label": "Home",
         "href": "index.html"
-      },
-      {
-        "label": "Getting started",
-        "href": "example.html"
       }
     ]
   }
